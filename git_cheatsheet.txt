@@ -1,0 +1,21 @@
+Start a git repository:
+
+	S git init
+
+Config:
+
+	$ git config --global user.name "kitobor"
+	$ git config --global user.email "michael@robotik.co.uk"
+
+Add the entire directory:
+
+	$ git add -A
+
+Add a single file:
+
+	$ git add hello.txt
+	
+Add a commit (a snapshot of the current state of the repository)
+
+	$ git commit -m "message here describing commit"
+	
