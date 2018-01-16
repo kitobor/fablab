@@ -1,0 +1,46 @@
+Start a git repository (local file store):
+
+	S git init
+
+Config:
+
+	$ git config --global user.name "kitobor"
+	$ git config --global user.email "michael@robotik.co.uk"
+
+Add the entire directory to repository:
+
+	$ git add -A
+
+Add a single file to repository:
+
+	$ git add hello.txt
+	
+Add a commit (a snapshot of the current state of the repository)
+
+	$ git commit -m "message here describing commit"
+	
+Check repository:
+
+	$ git status
+	
+
+
+
+REMOTE
+
+Link the local repository to remote GitHub repository:
+
+	$ git remote add origin https://github.com/kitobor/fablab.git
+	
+	
+Push the local repo to the remote repo:	
+
+	$ git push -u origin master
+
+Download a copy:
+
+	$ git clone https://github.com/kitobor/fablab.git
+	
+Get any changes:
+
+	$ git pull origin master
