@@ -1,2 +1,0 @@
-# fablab
-FabLab
